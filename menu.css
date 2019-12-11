@@ -1,0 +1,76 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+div.divmenu{
+	width: 100%;
+	padding: 0px;
+	margin-left: 30%;
+	margin-right: 30%;
+	position: relative;
+}
+
+div.divmenuAdmin{
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	margin-left: 20%;
+}
+
+.menu li{
+	display: block;
+	float: left;
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-right: 1px solid #2C3E50;
+	border-left: 1px solid #2C3E50;
+	background: -webkit-linear-gradient(top, #0066CC 25%, #0505AA 50%, #000066 100%);
+	background: -moz-linear-gradient(top, #0066CC 25%, #0505AA 50%, #000066 100%);
+	background: -o-linear-gradient(top, #0066CC 25%, #0505AA 50%, #000066 100%);
+	background: -ms-linear-gradient(top, #0066CC 25%, #0505AA 50%, #000066 100%);
+}
+.menu li:hover{
+	cursor: pointer;
+	background: -webkit-radial-gradient(center, ellipse cover, #0033CC 0%, #000066 100%);
+	background: -moz-radial-gradient(center, ellipse cover, #0033CC 0%, #000066 100%);
+	background: -o-radial-gradient(center, ellipse cover, #0033CC 0%, #000066 100%);
+	background: -ms-radial-gradient(center, ellipse cover, #0033CC 0%, #000066 100%);
+	color: #FFFFFF;
+}
+.primo{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.ultimo{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.sub-menu{
+	visibility: hidden;
+}
+.menu li:hover .sub-menu{
+	visibility: visible;
+}
+.sub-menu li{
+	border-top: 1px dotted #2C3E50;
+}
+.sub-menu li:hover{
+	width: 145px;
+	background: -webkit-radial-gradient(center, ellipse cover, #000066 10%, #000033 100%);
+	background: -moz-radial-gradient(center, ellipse cover, #000066 10%, #000033 100%);
+	background: -o-radial-gradient(center, ellipse cover, #000066 10%, #000033 100%);
+	background: -ms-radial-gradient(center, ellipse cover, #000066 10%, #000033 100%);
+	transition: all 0.1s ease 0s;
+	-webkit-transition: all 0.1s ease 0s;
+	-moz-transition: all 0.1s ease 0s;
+	-o-transition: all 0.1s ease 0s;
+	-ms-transition: all 0.1s ease 0s;
+}
+.ultimo-sub{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
